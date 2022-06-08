@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LookCre</string>
+    <string name="SubTitulo">CRIE O MELHOR DO LOOK PARA VOCÊ!</string>
+    <string name="ButtonLogo">Continue ></string>
+    <string name="logo">Logo</string>
+    <string name="salvar">Salvar</string>
+    <string name="tenis">Tênis</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="look_3">Look #3</string>
+    <string name="look_4">Look #4</string>
+    <string name="look_2">Look #2</string>
+    <string name="look_1">Look #1</string>
+    <string name="boas_vindas">Boas Vindas Usuário!</string>
+    <string name="esqueci">Esqueci a Senha</string>
+    <string name="insira">Insira seu login</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="insirasenha">Insira sua senha</string>
+    <string name="acessorio">Acessório</string>
+    <string name="insira_seu_look">Insira seu Look</string>
+    <string name="nome">Nome</string>
+    <string name="calca">Calça</string>
+    <string name="nome_do_look">Nome do Look</string>
+    <string name="camisa">Camisa</string>
+</resources>

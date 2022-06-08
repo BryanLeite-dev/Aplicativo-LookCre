@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Roupa1">
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/salvar"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNome"
+        app:layout_constraintVertical_bias="0.974"
+        app:layout_constraintWidth_percent=".8" />
+
+    <TextView
+        android:id="@+id/tvTenis"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="10dp"
+        android:text="@string/tenis"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvCalca"
+        app:layout_constraintTop_toBottomOf="@+id/etCalca"
+        app:layout_constraintVertical_bias="0.139"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/etTenis"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:background="@drawable/texto_redondo"
+        android:hint=""
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etCalca"
+        app:layout_constraintTop_toBottomOf="@+id/tvTenis"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent=".8"
+        tools:ignore="SpeakableTextPresentCheck"
+        />
+
+    <TextView
+        android:id="@+id/tvCalca"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/calca"
+        android:textSize="16sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvCamisa"
+        app:layout_constraintTop_toBottomOf="@+id/etCamisa"
+        app:layout_constraintVertical_bias="0.066"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/etCalca"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:background="@drawable/texto_redondo"
+        android:hint=""
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etCamisa"
+        app:layout_constraintTop_toBottomOf="@+id/tvCalca"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/etCamisa"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:background="@drawable/texto_redondo"
+        android:hint=""
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etAcessorio"
+        app:layout_constraintTop_toBottomOf="@+id/tvCamisa"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent=".8" />
+
+    <TextView
+        android:id="@+id/tvCamisa"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/camisa"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvAcessorio"
+        app:layout_constraintTop_toBottomOf="@+id/etAcessorio"
+        app:layout_constraintVertical_bias="0.051"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/texto_redondo"
+        android:hint="@string/nome_do_look"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent=".8" />
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/nome"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168"
+        app:layout_constraintWidth_percent=".8" />
+
+    <TextView
+        android:id="@+id/tvAcessorio"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/acessorio"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toEndOf="@+id/ivAcessorio2"
+        app:layout_constraintTop_toBottomOf="@+id/etNome"
+        app:layout_constraintVertical_bias="0.048"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/etAcessorio"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:background="@drawable/texto_redondo"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toEndOf="@+id/ivAcessorio2"
+        app:layout_constraintTop_toBottomOf="@+id/tvAcessorio"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent=".8" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/logoloo" />
+
+    <Button
+        android:id="@+id/btSeparar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <TextView
+        android:id="@+id/tvInstrucao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insira_seu_look"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvNome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSeparar"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <ImageView
+        android:id="@+id/ivAcessorio2"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/ivAcessorio1"
+        app:layout_constraintTop_toTopOf="@+id/tvCamisa"
+        app:srcCompat="@drawable/imagem" />
+
+    <ImageView
+        android:id="@+id/ivAcessorio3"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/ivAcessorio2"
+        app:layout_constraintTop_toTopOf="@+id/tvCalca"
+        app:srcCompat="@drawable/imagem" />
+
+    <ImageView
+        android:id="@+id/ivAcessorio"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/ivAcessorio3"
+        app:layout_constraintTop_toTopOf="@+id/tvTenis"
+        app:srcCompat="@drawable/imagem" />
+
+    <ImageView
+        android:id="@+id/ivAcessorio1"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvAcessorio"
+        app:srcCompat="@drawable/imagem" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
